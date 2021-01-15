@@ -1,0 +1,28 @@
+[package]
+authors = ["raycar5 <raycar5@users.noreply.github.com>"]
+edition = "2018"
+name = "transaction_processor"
+version = "0.1.0"
+
+[features]
+default = []
+multithreaded = []
+# Outputting to stderr slows down the program.
+stderr = []
+
+[dependencies]
+atoi = "0.4"
+csv-async = "1.1"
+fast-float = "0.2"
+futures = "0.3"
+futures-lite = "1.11"
+num_cpus = "1.13"
+parse-display = "0.4"
+rand = "0.8"
+rustc-hash = "1.1"
+serde = {version = "1.0", features = ["derive"]}
+smol = "1.2"
+smol-potat = "1.1.2"
+
+[dev-dependencies]
+bencher = "0.1.5"

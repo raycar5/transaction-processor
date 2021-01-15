@@ -1,0 +1,6 @@
+/target
+*.data
+*.data.old
+*.svg
+result.csv
+inputs/big/*
