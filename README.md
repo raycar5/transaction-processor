@@ -10,7 +10,7 @@ To process inputs you can run in 2 modes (remember to run `gen.sh` first):
 1. Single threaded: `cargo run --release inputs/big/random.csv > result.csv`
 2. Multi threaded: `cargo run --features multithreaded --release inputs/big/random.csv > result.csv`
 
-You can also enable verbose output of the invalid transactions with `--features stderr` but it slows down performance considerably so it should only be used in smaller inputs like `cargo run --features stderr --release inputs/invalid.csv > result.csv`.
+You can also enable verbose output of the invalid transactions with `--features stderr` but it slows down performance considerably so it should only be used in smaller inputs like `cargo run --features stderr --release inputs/complicated.csv > result.csv`.
 
 ### Generating
 You can generate input csv data with 2 commands, both of them generate 10,000,000 transactions.
