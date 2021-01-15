@@ -28,6 +28,12 @@ You can time the execution of the multi threaded and single threaded processing 
 
 ## Profiling
 You can generate a flamegraph profile of the single threaded implementation by running `profile.sh`, it requires that you have previously ran `cargo install flamegraph`.
+Remember adding
+```toml
+[profile.release]
+debug = true
+```
+to `cargo.toml` or the flamegraph will not have the debug symbols.
 
 ## Testing
 Run `cargo test` to execute unit tests.
