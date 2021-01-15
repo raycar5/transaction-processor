@@ -33,7 +33,7 @@ Remember adding
 [profile.release]
 debug = true
 ```
-to `cargo.toml` or the flamegraph will not have the debug symbols.
+to `Cargo.toml` or the flamegraph will not have the debug symbols.
 
 ## Testing
 Run `cargo test` to execute unit tests.
