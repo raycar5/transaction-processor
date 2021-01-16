@@ -25,3 +25,4 @@ smol-potat = "1.1.2"
 
 [dev-dependencies]
 bencher = "0.1.5"
+better-macro = "1.0"

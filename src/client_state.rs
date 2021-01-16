@@ -572,6 +572,7 @@ mod tests {
             client: ClientId(1),
             tx: TransactionId(1),
         });
+        println!("cs:{:?};",cs);
         assert_eq!(
             cs,
             ClientState {
@@ -588,4 +589,5 @@ mod tests {
             }
         );
     }
+    use better_macro::println;
 }

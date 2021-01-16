@@ -136,6 +136,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7dfdb4953a096c551ce9ace855a604d702e6e62d77fac690575ae347571717f5"
 
 [[package]]
+name = "better-macro"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bc300954c6424fae0709a3c2ebef0c66d77c4f53dcd2dbf7d204d9206cc0a4fb"
+dependencies = [
+ "proc-macro2",
+ "quote",
+]
+
+[[package]]
 name = "blocking"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -733,6 +743,7 @@ version = "0.1.0"
 dependencies = [
  "atoi",
  "bencher",
+ "better-macro",
  "csv-async",
  "fast-float",
  "futures",
